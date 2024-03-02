@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhaka University Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>
+            Our courses range from undergraduate to post graduate levels with unique streams like Aerospace, Automobile and Data Science.
+        </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>
+                    Our courses range from undergraduate to post graduate levels with unique streams like Aerospace, Automobile and Data Science.
+                </p>
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>
+                    Our courses range from undergraduate to post graduate levels with unique streams like Aerospace, Automobile and Data Science.
+                </p>
+            </div>
+
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>
+                    Our courses range from undergraduate to post graduate levels with unique streams like Aerospace, Automobile and Data Science.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--------------------Facilities-------------------->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>
+            Dhaka University seeks to provide world class facilities and infrastructure to make students aspire for a bright career ahead.
+        </p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="campus">
+                <h3>E-LIBRARY</h3>
+                <p>We provide you with a variety of e-books for in-depth understanding of the subjects for free</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="campus">
+                <h3>Largest Playground</h3>
+                <p>Huge library of HD videos of lessons, exercises and exams specially for your knowledge</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="campus">
+                <h3>ALUMNI</h3>
+                <p>Listen successful stories of career development from our Aspire Alumnis and connect with them.</p>
+            </div>
+        </div>
+    </section>
+
+
+    
+<!--------------------Footer-------------------->
+<section class="footer">
+    <h4>About us</h4>
+    <p>
+        Dhaka University seeks to provide world class facilities and infrastructure<br> to make students aspire for a bright career ahead.
+    </p>
+
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-google"></i>
+    </div>
+    <p>Made with <i class="fas fa-heart"></i> by Ahona Rahman</p>
+
+</section>
+
+
+
+
+<!--------------------JS Toggle menu-------------------->
+    <script>
+        var navLinks= document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+    </script>
+</body>
+</html>
